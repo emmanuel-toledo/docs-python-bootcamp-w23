@@ -13,3 +13,7 @@ Este repositorio es un conjunto de practicas y documentación referente al lengu
 | Flutter Flow | https://flutterflow.io/ | Permite crear apps moviles en forma de bloques |
 | Linux Mint | https://linuxmint.com/ | Distribución de Linux |
 
+La versión de Python instalada fue 3.11.5.
+
+Trabajar con comando ```pip```:
+- https://packaging.python.org/en/latest/tutorials/installing-packages/
