@@ -53,3 +53,9 @@ Metodos / Funciones: Acciones que puede llevar a cabo un objeto, por ejemplo un 
 Instancia: Resultado de crear un objeto a partir de una clase. Se creó una instancia (objeto) de una clase.
 
 Abstracción: Resultado de ver objetos de la vida real y definir atributos lógicos de ellos.
+
+## ORM (Object Relational Mapping)
+
+Un ORM nos permite conectar a una base de datos a partir de un módelo de clases, esto permite ahorarnos comandos SQL y preservar la integridad de los datos al no permitir la inyección de código SQL.
+
+Es el concepto con el cual se creó Entity Framework Core.
