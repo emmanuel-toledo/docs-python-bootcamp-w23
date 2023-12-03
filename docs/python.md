@@ -63,3 +63,17 @@ Es el concepto con el cual se creó Entity Framework Core.
 En Python DJango tiene integrado el uso de un ORM.
 
 Un ORM trabaja con clases y objetos, si conocemos los principios de POO, será facil comprender su uso.
+
+# Deserialization and Serialization
+
+En las API podemos serializar o deserealizar un request o respuesta para cada servicio.
+
+# REST API
+
+Trabaja bajo el esquema Cliente - Servidor.
+
+Permite generar peticiones web con 4 bases principales.
+1. URL de acceso a un servicio
+2. Método con el que se dispara el servicio
+3. Body que es el contenido de una petición
+4. Headers que son las cabeceras de como se debe de ejecutar nuestro servicio
