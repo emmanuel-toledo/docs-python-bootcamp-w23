@@ -59,3 +59,5 @@ Abstracción: Resultado de ver objetos de la vida real y definir atributos lógi
 Un ORM nos permite conectar a una base de datos a partir de un módelo de clases, esto permite ahorarnos comandos SQL y preservar la integridad de los datos al no permitir la inyección de código SQL.
 
 Es el concepto con el cual se creó Entity Framework Core.
+
+En Python DJango tiene integrado el uso de un ORM.
