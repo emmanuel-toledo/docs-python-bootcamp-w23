@@ -1,6 +1,9 @@
 import random
 
 class Tarjeta:
+
+    # Se manda a llamar cuando hacemos algo como lo siguiente:
+    # tarjeta = Tarjeta()
     def __init__(self, numero_tarjeta, titular, balance = None, fecha_caducidad = None, pin = None, entidad_emisora = None, is_active = False):
         self.numero_tarjeta = numero_tarjeta
         self.titular = titular
@@ -11,6 +14,7 @@ class Tarjeta:
         self.is_active = is_active
 
     # Función tipicamente utilizada para mostrar una representación de una instancia de una clase
+    # Se manda a llamar de forma automatica cuando hacemos un print(tarjeta). (instancia de tarjeta)
     def __repr__(self):
         return f'Tarjeta: {self.numero_tarjeta} - {self.titular}'
     
