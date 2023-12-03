@@ -6,7 +6,8 @@ from utils.parse_db_response import parse_todo_to_json_array, parse_todo_to_json
 def select_tasks():
     tasks = select_all() # Consulta a la BD
     json_tasks = parse_todo_to_json_array(tasks) # Convertimos a un arreglo JSON
-    print(json.dumps(json_tasks, indent = 4)) # Imprimimos el resultado (JSON de línea anterior)
+    # Hacemos una serialización y deserialización, esto para detectar correctamente caracteres especiales.
+    print(json.dumps(json_tasks, indent = 4, ensure_ascii=False).encode('utf-8').decode('utf-8')) # Imprimimos el resultado (JSON de línea anterior)
 
 def select_task():
     id = input("Escribe el identificador del registro que deseas consultar: ")
@@ -15,4 +16,5 @@ def select_task():
         print(f"ERROR: El registro con el id '{id}' no existe")
         return None
     json_task = parse_todo_to_json(task) # Convertimos a un objeto JSON
-    print(json.dumps(json_task, indent = 4)) # Imprimimos el resultado (JSON de línea anterior)
+    # Hacemos una serialización y deserialización, esto para detectar correctamente caracteres especiales.
+    print(json.dumps(json_task, indent = 4, ensure_ascii=False).encode('utf-8').decode('utf-8')) # Imprimimos el resultado (JSON de línea anterior)

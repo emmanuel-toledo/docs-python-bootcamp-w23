@@ -36,3 +36,20 @@ Los escenarios para usar ```python``` son:
 5. Desarrollo web
 6. Seguridad informática
 
+## OOP (ORIENTED OBJECT PROGRAMMING)
+
+OOP: Programación orientada a objetos (POO).
+
+Python hace uso de la programación orientada a objetos en casi todo el tiempo.
+
+Objeto: Elemento de la vida real que puede llegar a tener alguna representación lógica.
+
+Clase: Plantilla de código con representación de un elemento de la vida real que contiene porpiedades o atributos y métodos o funciones. Podemos verlo como un molde de pan.
+
+Propiedades / Atributos: Caracteristicas que conforman a un objeto, por ejemplo un carro, una caracteristica es el color, módelo, etc. Información de un objeto.
+
+Metodos / Funciones: Acciones que puede llevar a cabo un objeto, por ejemplo un carro, puede encender o apagar.
+
+Instancia: Resultado de crear un objeto a partir de una clase. Se creó una instancia (objeto) de una clase.
+
+Abstracción: Resultado de ver objetos de la vida real y definir atributos lógicos de ellos.
