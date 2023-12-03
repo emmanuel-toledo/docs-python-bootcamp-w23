@@ -1,7 +1,9 @@
 import random
 
+# Todas las funciones que comienzan con __ y terminan con __ son usualmente nativas de Python.
 class Tarjeta:
 
+    # Solo puedes tener un constructor en Python
     # Se manda a llamar cuando hacemos algo como lo siguiente:
     # tarjeta = Tarjeta()
     def __init__(self, numero_tarjeta, titular, balance = None, fecha_caducidad = None, pin = None, entidad_emisora = None, is_active = False):
@@ -36,10 +38,11 @@ class Tarjeta:
         return self.__pin
     
     # Setter de cada propiedad
-    def set_pin(self, pin):
+    def set_pin(self, pin): # Public
         self.__pin = pin
 
-    def _logger(self):
+    # Hacemos que identifiquen una función o propiedad privada, usando un _
+    def _logger(self): # Private
         print("Logger registrado")
 
 
@@ -69,4 +72,4 @@ tarjeta.comprar(1000)
 tarjeta.set_pin(3254)
 print(tarjeta.get_pin())
 
-tarjeta._logger()
+tarjeta._logger() # Esto esta mal, ya que es función privada
