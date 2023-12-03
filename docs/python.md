@@ -61,3 +61,5 @@ Un ORM nos permite conectar a una base de datos a partir de un módelo de clases
 Es el concepto con el cual se creó Entity Framework Core.
 
 En Python DJango tiene integrado el uso de un ORM.
+
+Un ORM trabaja con clases y objetos, si conocemos los principios de POO, será facil comprender su uso.
