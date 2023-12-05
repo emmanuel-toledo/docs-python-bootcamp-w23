@@ -12,4 +12,7 @@ python -m pip --version
 
 # Instalar paquetes con pip
 python -m pip install {paquete}
+
+# Crear ambiente
+python -m venv {/path/to/new/virtual/environment}
 ```
